@@ -28,6 +28,7 @@ java -jar ./target/fdownloader-1.0-SNAPSHOT-jar-with-dependencies.jar http://ftp
 ```
 java -jar ./target/fdownloader-1.0-SNAPSHOT-jar-with-dependencies.jar http://ftp.halifax.rwth-aachen.de/apache/tomcat/tomcat-8/v8.5.32/src/apache-tomcat-8.5.32-src.zip
 ```
+Note: At any point you can 'pause' and 'resume' the download. And also can simply cancel it start again with same inputs (to resume from where it interrupted last time).
 
 ## Running the tests
 
