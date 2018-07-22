@@ -1,12 +1,9 @@
 ### Java template
 # Compiled class file
-*.class
-
 # Log file
 *.log
 
 # Package Files #
-*.jar
 *.war
 *.nar
 *.ear
@@ -117,3 +114,4 @@ local.properties
 
 /.idea/
 *.iml
+/target/
