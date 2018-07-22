@@ -24,10 +24,6 @@ public class App {
         DownloadManager downloadManager = DownloadManager.getInstance();
         downloadManager.download(downloadJob);
 
-        input.listen(downloadJob, downloadManager, () -> {
-            if (downloadManager.isShutdown()) {
-                downloadManager.shutdownNow();
-            }
-        });
+        input.listen(downloadJob, downloadManager);
     }
 }
