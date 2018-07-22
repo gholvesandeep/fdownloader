@@ -29,7 +29,6 @@ public class ConsoleInput {
             }
         }
         reader.close();
-        System.out.println("Shutting down");
         if (!downloadManager.isShutdown()) {
             downloadManager.shutdownNow();
         }
